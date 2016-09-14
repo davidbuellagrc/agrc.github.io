@@ -10,6 +10,7 @@ module Jekyll
       site.config['PULL_REQUEST'] = ENV['PULL_REQUEST']
       site.config['HEAD'] = ENV['HEAD']
       site.config['CONTEXT'] = ENV['CONTEXT']
+      site.config['JEKYLL_ENV'] = ENV['JEKYLL_ENV']
       # Add other environment variables to `site.config` here...
     end
 
