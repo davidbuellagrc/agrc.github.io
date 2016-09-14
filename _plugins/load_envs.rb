@@ -14,6 +14,7 @@ module Jekyll
       site.config['HEAD'] = ENV['HEAD']
       site.config['CONTEXT'] = ENV['CONTEXT']
       site.config['JEKYLL_ENV'] = ENV['JEKYLL_ENV']
+      site.config['canary'] = 'tweet tweet.'
       # Add other environment variables to `site.config` here...
     end
 
