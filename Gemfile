@@ -1,2 +1,3 @@
 source 'https://rubygems.org'
-gem 'github-pages', 'dotenv'
+gem 'github-pages'
+gem 'dotenv'
